@@ -27,6 +27,19 @@ body {
     background-size: 100% 100%;
 }
 
+#Introduction {
+    box-shadow: 0px 0px 5px rgba(0.5, 0.5, 0.5, 0.5);
+    border: 1px solid transparent;
+    background-color: rgba(51,51,51,0.7);/*rgba(180, 205, 205, 0.6);*/
+    color: white;
+    margin: 0 auto;
+    width:30%;
+    position:relative;
+    top:50%;
+    /*transform: translateY(-50%);*/
+    padding: 1em;
+}
+
 #Introduction h1 {
     margin-bottom: 2em;
     text-align: center;
@@ -38,24 +51,53 @@ body {
     margin: 1em 0;
 }
 
+
 ul .options {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(51,51,51,0.7);
+    border: 1px solid #e7e7e7;
+    /*list-style-type: none;
     text-align: center;
     margin: 0 auto;
     padding: 0px;
-    text-size: 1em;
+    text-size: 1em;*/
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 0px 6px;
+    width: 60px;
+    color: white;
 }
 
 ul .button {
     display:block;
-    color:black;
     text-decoration:none;
     width:80%;
     margin: 0 auto;
-    background-color:#e7e7e7;
-    border:0;
+    overflow: hidden;
+    background-color: rgba(51,51,51,0.7);
+    border: 1px solid #000;
 }
 
-.button:hover {
-    box-shadow: 0px 0px 5px rgba(0.5,0.5,0.5,0.5);
+#Navigation {
+    padding: 0px;
+    box-shadow: 0px 0px 5px rgba(0.5, 0.5, 0.5, 0.5);
+    border: 1px solid transparent;
+    /*background-color: rgba(180, 205, 205, 0.6);*/
+    margin: 0 auto;
+    width:100%;
+    position:relative;
+    margin-bottom: 25px;
+}
+
+li a:hover {
+        background-color: rgba(34,29,29,0.8);
 }
