@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'serif';
+    background-color: transparent;
+}
+
+#title h1 {
+    text-align: center;
+}
+
+.Store-Main-Page {
+    background-image: url('../assets/annes-store.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#Introduction h1 {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#Introduction .block {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 1em 0;
+}
+
+ul .options {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    text-size: 1em;
+}
+
+ul .button {
+    display:block;
+    color:black;
+    text-decoration:none;
+    width:80%;
+    margin: 0 auto;
+    background-color:#e7e7e7;
+    border:0;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 5px rgba(0.5,0.5,0.5,0.5);
+}
