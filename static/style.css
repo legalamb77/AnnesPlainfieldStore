@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'serif';
     background-color: transparent;
 }
@@ -21,7 +20,7 @@ body {
 }
 
 .Store-Main-Page {
-    background-image: url('../assets/annes-store.jpg');
+    background-image: url('../assets/test.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
